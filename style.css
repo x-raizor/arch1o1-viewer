@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+body {
+	background: #000;
+    color: #fff;
+	text-align: center;
+    font-size: 100%;
+    font-family: Garamond, EB Garamond, Georgia, serif;
+    padding: 0 0 2em 0;
+}
+#menu {
+    display: block;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 0.5em 1em 1em;
+    background: rgba(0,0,0, 0.7);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0, 0.3);
+    box-shadow: 0 2px 3px rgba(0,0,0, 0.3);
+}
+
+/*@media:query*/
+#menu:hover ul {
+    display: block;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#menu ul {
+    display: none;
+}
+
+#menu menu {
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+#menu ul, #menu ul li a {
+    color: rgba(255,255,255, 0.6);
+    text-align: left;
+    margin: 0;
+    padding: 0.25em 0 0 0;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+menu label {
+    color: #FF7A42;
+    letter-spacing: 0.1em;
+    margin: 0 2em 0 0;
+}
+
+menu span {
+    display: block;
+    color: #FF7A42;
+    position: absolute;
+    font-size: 0.9em;
+    top: 2em;
+
+}
+menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 1.3em 0 0;
+}
+
+#insta {
+    width: auto;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#instafeed {
+	margin: 0 auto;
+    clear: both;
+}
+#instafeed figure {
+	margin: 0 0.4em 0.8em 0;
+	float: left;
+}
+
+img {
+	margin: 0;
+    border: 0;
+}
+figcaption {
+    font-size: 0.8em;
+    color: rgba(255,255,255,0.6);
+    text-align: left;
+}
+figcaption span {
+    color: rgba(255,255,255,1);
+}
+#controls {
+    border-top: 0.1em solid rgba(255,255,255, 0.2);
+    clear: both;
+    margin: 0 0 2em 0;
+}
+#controls button {
+    width: auto;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: 0.2em solid White;
+    border-radius: 0.5em;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2em 0 0 0;
+}
+
+#preloader {
+    z-index: 10;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    /*margin-top: 1.5em;*/
+    /*height: 2em;*/
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.show {
+    display: block!important;
+}

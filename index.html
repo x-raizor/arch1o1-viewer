@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="archApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Architecture1o1 Students Works</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"></style>
+    <!-- Yandex.Metrika counter --><script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script><script type="text/javascript">try { var yaCounter294998 = new Ya.Metrika({id:294998, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { }</script><noscript><div><img src="//mc.yandex.ru/watch/294998" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+  </head>
+<body ng-controller="archAppCtrl" ng-view>
+
+    <section id="menu">
+        <menu type="popup">
+            <label>#ARCHITECTURE 1o1</label>
+             <li ng-repeat="week in weeks">{{week.name}}
+                <ul ng-repeat="day in week.days">
+                    <li><a href="#/{{day}}" no-click="switchDay(day)">{{day}}</a></li>
+                </ul>
+             </li>
+        </menu>
+    </section>
+    <section id="insta" when-scrolled="loadNext()">
+        <div id="instafeed" no-masonry>
+            <figure no-masonry-brick ng-repeat="item in data | filter:checkTag | filter:skipOrgs | orderBy:item.likes.count">
+                <a href="{{item.link}}">
+                    <img ng-src="{{item.images.low_resolution.url}}" />
+                </a>
+                <figcaption tags="{{item.tags}}">
+                    {{item.user.full_name}}, @{{item.user.username}}, 
+                    <span>{{item.likes.count}}</span> likes
+                </figcaption>
+            </figure>
+        </div>
+        <div id="controls">
+            <button id="next" ng-show="hasNext" ng-click="loadNext()">Kiss-kiss more works</button>
+            <img id="preloader" ng-show="isPreloading" src="hearts.svg" alt="">
+        </div>
+    </section>
+<script type="text/javascript" src="js/instafeed.js"></script>
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-masonry.min.js"></script>
+<script type="text/javascript" src="js/angular-route.min.js"></script>
+<script type="text/javascript" src="js/engine.js"></script>
+</body>
+</html>
