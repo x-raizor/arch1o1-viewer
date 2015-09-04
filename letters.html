@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="archCentro">
+<head>
+	<meta charset="UTF-8">
+	<title>Architecrure 1o1 Course Letters</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css"></style>
+</head>
+<body ng-controller="archCentroCtrl" ng-view>
+	<header id="menu">
+        <menu class="main">
+            <label><a href="http://architecture1o1.net">#ARCHITECTURE 1o1</a></label>
+            <li class="active"><a href="letters.html">Letters</a></li>
+            <li><a href="viewer.html">Student Works</a></li>
+            <li><a href="talks.html">InstaTalks</a></li>
+            <li><a href="http://architecture1o1.wordpress.com">Archive</a></li>
+        </menu>
+    </header>
+	<section id="letters">
+		<h1>Day Letters</h1>
+        <div class="week" ng-repeat="week in letters |  orderBy:'-number'" ng-cloak>
+			<div>
+	        	<h3><small>{{letters.length - $index + '. '}}</small> {{week.names[0].name}}</h3>
+	    		<p ng-repeat="day in week.names[0].days" ng-cloak>
+	    			<a href="{{'letters/eng/'+week.names[0].pdf[$index]}}">{{day}}</a>
+	    		</p>
+    		</div>    		
+    		<div>
+	    		<h3><small>{{letters.length - $index + '. '}}</small> {{week.names[1].name}}</h3>
+	    		<p ng-repeat="day in week.names[1].days" ng-cloak>
+    				<a href="{{'letters/rus/'+week.names[1].pdf[$index]}}" ng-if="week.names[1].pdf[$index]">
+    					{{day}}
+    				</a>
+    				<var ng-if="!week.names[1].pdf[$index]">
+    					{{day}}
+    				</var>
+    				<span>
+    					{{week.names[1].brief[$index]}}
+    				</span>
+    			</p>
+	    	</div>
+        </div>
+    </section>
+    <footer>
+    	<p>Made with love</p>
+    </footer>
+    <script src="js/angular.min.js"></script>
+	<script src="js/jquery-1.11.2.min.js"></script>	
+	<script src="js/lettersController.js"></script>
+</body>
+</html>

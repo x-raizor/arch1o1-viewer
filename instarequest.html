@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Instagram photos by request</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"></style>
+    <link rel="stylesheet" href="style.css">
+    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter28808467 = new Ya.Metrika({id:28808467, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/28808467" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
   </head>
 <body ng-controller="instareqAppCtrl" ng-view>
     <section id="menu">
-        <menu type="/">
+        <menu>
             <form ng-submit="newRequest()">
                 <label>TAG</label>
                 <input type="text" ng-model="tagUri" />
@@ -22,10 +23,10 @@
         <div id="instafeed" un-preserve-order masonry="{transitionDuration: '0.4s', hiddenStyle: {opacity: '0', transform: 'scale(0.1)'}}">
          <!-- orderBy:item.likes.count -->
             <figure class="masonry-brick" ng-repeat="item in data | filter:userFilter">
-                <a href="{{item.link}}">
+                <a class="ng-cloak" href="{{item.link | filter:userFilter}}">
                     <img ng-src="{{item.images.low_resolution.url}}" />
                 </a>
-                <figcaption tags="{{item.tags}}">
+                <figcaption class="ng-cloak" tags="{{item.tags}}">
                     {{item.user.full_name}}, @{{item.user.username}}, 
                     <span>{{item.likes.count}}</span> likes
                 </figcaption>
@@ -52,6 +53,6 @@
 <script src="js/angular.min.js"></script>
 <script src="js/angular-masonry.min.js"></script>
 <script src="js/angular-route.min.js"></script>
-<script src="instarequest.js"></script>
+<script src="js/instarequest.js"></script>
 </body>
 </html>

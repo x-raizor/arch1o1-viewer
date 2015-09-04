@@ -1,0 +1,428 @@
+[
+  {
+    "number": 1,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Pictures",
+        "name": "Taking pictures",
+        "days": [
+          "RelativeSizeOfThings",
+          "50000YearsAgo",
+          "ThingsWithNoName",
+          "TVWithoutSignal",
+          "MusicWithoutSound"
+        ],
+        "pdf": [
+          "2.101.pdf",
+          "3.101.pdf",
+          "4.101.pdf",
+          "5.101.pdf",
+          "6.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Фотографии",
+        "name": "Фотографирование",
+        "days": [
+          "ОтносительныеРазмерыВещей",
+          "50000ЛетНазад",
+          "ВещиБезИмён",
+          "ТВБезСигнала",
+          "МузыкаБезЗвука"
+        ],
+        "pdf": [],
+        "brief": [
+          "Глаз",
+          "Смятая бумага",
+          "Жидкость на асфальте",
+          "Выключенный телевизор",
+          "Тишина"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Sketches",
+        "name": "Learning to sketch",
+        "days": [
+          "QuestionWithoutAnswer",
+          "DoorsOfPerception",
+          "SomePeopleTheyKnowThings",
+          "DaytimeNighttime",
+          "PlayItByTrust"
+        ],
+        "pdf": [
+          "7.101.pdf",
+          "8.101.pdf",
+          "9.101.pdf",
+          "10.101.pdf",
+          "11.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Эскизы",
+        "name": "Учимся эскизировать",
+        "days": [
+          "ВопросБезОтвета",
+          "ДвериВосприятия",
+          "НекоторыеЛюдиОниЗнаютВещи",
+          "ДневноевремяНочноевремя",
+          "ИграйДоверяя"
+        ],
+        "pdf": [
+          "07.101-ru.pdf",
+          "08.101-ru.pdf",
+          "09.101-ru.pdf",
+          "10.101-ru.pdf",
+          "11.101-ru.pdf"
+        ],
+        "brief": [
+          "Эскиз обычный и вверх ногами",
+          "Пространство вокруг вазы",
+          "Лист закрытыми глазами",
+          "Здание по памяти",
+          "Руку вслепую"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Collages",
+        "name": "Making collages",
+        "days": [
+          "RomanceInManyDimensions",
+          "InsideNoOutside",
+          "WhatMakesTheDesert",
+          "StealingThingsIs",
+          "BrianEnoSays"
+        ],
+        "pdf": [
+          "12.101.pdf",
+          "13.101.pdf",
+          "14.101.pdf",
+          "15.101.pdf",
+          "16.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Коллажи",
+        "name": "Делаем коллажи",
+        "days": [
+          "РомансВоМногихИзмерениях",
+          "ВнутриНеСнаружи",
+          "ЧтоДелаетПустыню",
+          "КраденныеВещиЭто",
+          "БрайанИноГоворит"
+        ],
+        "pdf": [
+          "12.101-ru.pdf",
+          "",
+          "",
+          "15.101-ru.pdf",
+          "16.101-ru.pdf"
+        ],
+        "brief": [
+          "Автопортрет",
+          "Эмоции",
+          "Своё место",
+          "Абстрактная проекция себя на месте",
+          "Проекция себя на месте"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Weather",
+        "name": "Observing the Weather",
+        "days": [
+          "ExcuseMeWhile",
+          "MySunMachine",
+          "SomePeopleWalk",
+          "MyBusinessIs",
+          "VoyageDansLalune"
+        ],
+        "pdf": [
+          "17.101.pdf",
+          "18.101.pdf",
+          "19.101.pdf",
+          "20.101.pdf",
+          "21.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Погода",
+        "name": "Исследуем погоду",
+        "days": [
+          "ПростиМеняПока",
+          "МояСолнечнаяМашина",
+          "НекоторыеЛюдиГуляют",
+          "МоеДелоЭто",
+          "ПутешествиеНаЛуну"
+        ],
+        "pdf": [
+          "17.101-ru.pdf",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "brief": [
+          "Калейдоскоп неба",
+          "Калейдоскоп Солнца",
+          "Визуализация дождя",
+          "Тайм-лапс облаков",
+          "Визуализация Луны"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Diagrams",
+        "name": "Shaping Diagrams",
+        "days": [
+          "YourMindWill",
+          "YouGottaHave",
+          "OnesDestination",
+          "IfYouStartToThink",
+          "BeSureYou"
+        ],
+        "pdf": [
+          "22.101.pdf",
+          "23.101.pdf",
+          "24.101.pdf",
+          "25.101.pdf",
+          "26.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Диаграммы",
+        "name": "Создаем диаграммы",
+        "days": [
+          "ВашРазумБудет",
+          "УВасДолжноБыть",
+          "МестоНазначения",
+          "ЕслиВыНачнетеДумать",
+          "ВыУбедитесь"
+        ],
+        "pdf": [
+          "22.101-ru.pdf",
+          "23.101-ru.pdf",
+          "",
+          "",
+          ""
+        ],
+        "brief": [
+          "Моё сознание",
+          "Моё тело",
+          "Моё место",
+          "Разум и тело",
+          "Разум, тело, место"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Maps",
+        "name": "Drawing maps",
+        "days": [
+          "ALineIsADot",
+          "YouCantCriticize",
+          "HumanBehaviourFlows",
+          "NoManIs",
+          "ThisWorldIs"
+        ],
+        "pdf": [
+          "27.101.pdf",
+          "28.101.pdf",
+          "29.101.pdf",
+          "30.101.pdf",
+          "31.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Карты",
+        "name": "Рисуем Карты",
+        "days": [
+          "ЛинияЭтоТочка",
+          "ВыНеМожетеКритиковать",
+          "ЧеловеческоеПоведениеВытекает",
+          "НетЧеловекаЭто",
+          "ЭтотМирЭто"
+        ],
+        "pdf": [],
+        "brief": [
+          "«Место» в виде линии",
+          "«Место» в виде системы координат",
+          "«Место» в море",
+          "«Место» как остров",
+          "«Место» в звёздном небе"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Stonehenge",
+        "name": "History of Place and Space",
+        "days": [
+          "WeAllShineOn",
+          "NothingIsBuilt",
+          "NoCowOnTheIce",
+          "YouGetUp",
+          "ThereIsNothing"
+        ],
+        "pdf": [
+          "34.101.pdf",
+          "35.101.pdf",
+          "36.101.pdf",
+          "37.101.pdf",
+          "38.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Стоунхендж",
+        "name": "История места и пространства",
+        "days": [
+          "МыВсеСияем",
+          "НичегоНеПостроено",
+          "НетКоровыНаЛьду",
+          "ВыПроснулись",
+          "ТамПусто"
+        ],
+        "pdf": [
+          "34.101-ru.pdf",
+          "35.101-ru.pdf",
+          "36.101-ru.pdf",
+          "37.101-ru.pdf",
+          "38.101-ru.pdf"
+        ],
+        "brief": [
+          "Фигура человека в Стоунхендже",
+          "Звёздная диаграмма в Стоунхендже",
+          "3Д-модель Стоунхенджа",
+          "Диаграмма в нетронутой природе",
+          "Камень в нетронутой природе"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Proportions",
+        "name": "Proportions",
+        "days": [
+          "ThePrimaryFactor",
+          "TheSimplestWay",
+          "TheEggHas",
+          "ItIsNotHow",
+          "ThereIsNoExcellent"
+        ],
+        "pdf": [
+          "39.101.pdf",
+          "40.101.pdf",
+          "41.101.pdf",
+          "42.101.pdf",
+          "43.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Пропорции",
+        "name": "Пропорции",
+        "days": [
+          "Основополагающий фактор",
+          "ПростейшийСпособ",
+          "ЯйцаИмеют",
+          "НеТакКак",
+          "НетСовершенства"
+        ],
+        "pdf": [
+          "39.101-ru.pdf",
+          "40.101-ru.pdf",
+          "41.101-ru.pdf",
+          "42.101-ru.pdf",
+          "43.101-ru.pdf"
+        ],
+        "brief": [
+          "Фигура человека в Забриски Пойнт",
+          "Рисунок геоглифа в Наска",
+          "Наскальный рисунок",
+          "Рисунок ландшафта на теле",
+          "Совмещение ландшафта и тела"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "names": [
+      {
+        "language": "English",
+        "shortname": "Measurements",
+        "name": "Taking measurements",
+        "days": [
+          "ThereIsNoNeed",
+          "AdversityIs",
+          "OurLifeIs",
+          "NotAllThose",
+          "IllPaintYou"
+        ],
+        "pdf": [
+          "44.101.pdf",
+          "45.101.pdf",
+          "46.101.pdf",
+          "47.101.pdf",
+          "48.101.pdf"
+        ]
+      },
+      {
+        "language": "русский",
+        "shortname": "Измерения",
+        "name": "Измерения",
+        "days": [
+          "НеНужно",
+          "НесчастьяЭто",
+          "НашаЖизньЭто",
+          "НеВсеТе",
+          "ЯНарисуюТебя"
+        ],
+        "pdf": [],
+        "brief": []
+      }
+    ]
+  }
+]

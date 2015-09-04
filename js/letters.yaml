@@ -1,0 +1,185 @@
+---
+  - 
+    number: 1
+    names: 
+      - 
+        language: "English"
+        shortname: "Pictures"
+        name: "Taking pictures"
+        days: 
+          - "RelativeSizeOfThings"
+          - "50000YearsAgo"
+          - "ThingsWithNoName"
+          - "TVWithoutSignal"
+          - "MusicWithoutSound"
+      - 
+        language: "русский"
+        shortname: "Фотографии"
+        name: "Фотографирование"
+        days: 
+          - "ОтносительныеРазмерыВещей"
+          - "50000ЛетНазад"
+          - "ВещиБезИмён"
+          - "ТВБезСигнала"
+          - "МузыкаБезЗвука"
+  - 
+    number: 2
+    names: 
+      - 
+        language: "English"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+  - 
+    number: 3
+    names: 
+      - 
+        language: "English"
+        shortname: "Collages"
+        name: "Making collages"
+        days: 
+          - "RomanceInManyDimensions"
+          - "InsideNoOutside"
+          - "WhatMakesTheDesert"
+          - "StealingThingsIs"
+          - "BrianEnoSays"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+  - 
+    number: 4
+    names: 
+      - 
+        language: "English"
+        shortname: "Weather"
+        name: "Observing the Weather"
+        days: 
+          - "ExcuseMeWhile"
+          - "MySunMachine"
+          - "SomePeopleWalk"
+          - "MyBusinessIs"
+          - "VoyageDansLalune"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+  - 
+    number: 5
+    names: 
+      - 
+        language: "English"
+        shortname: "Diagrams"
+        name: "Shaping Diagrams"
+        days: 
+          - "YourMindWill"
+          - "YouGottaHave"
+          - "OnesDestination"
+          - "IfYouStartToThink"
+          - "BeSureYou"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+  - 
+    number: 6
+    names: 
+      - 
+        language: "English"
+        shortname: "Maps"
+        name: "Drawing maps"
+        days: 
+          - "ALineIsADot"
+          - "YouCantCriticize"
+          - "HumanBehaviourFlows"
+          - "NoManIs"
+          - "ThisWorldIs"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+  - 
+    number: 7
+    names: 
+      - 
+        language: "English"
+        shortname: "Stonehenge"
+        name: "History of Place / History of Space"
+        days: 
+          - "WeAllShineOn"
+          - "NothingIsBuilt"
+          - "NoCowOnTheIce"
+          - "YouGetUp"
+          - "ThereIsNothing"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"
+  - 
+    number: 8
+    names: 
+      - 
+        language: "English"
+        shortname: "Proportions"
+        name: "Proportions"
+        days: 
+          - "ThePrimaryFactor"
+          - "TheSimplestWay"
+          - "TheEggHas"
+          - "ItIsNotHow"
+          - "ThereIsNoExcellent"
+      - 
+        language: "русский"
+        shortname: "Sketches"
+        name: "Learning to sketch"
+        days: 
+          - "QuestionWithoutAnswer"
+          - "DoorsOfPerception"
+          - "SomePeopleTheyKnowThings"
+          - "DaytimeNighttime"
+          - "PlayItByTrust"

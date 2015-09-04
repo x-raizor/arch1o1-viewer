@@ -1,6 +1,9 @@
 /* 
  *App engine
  */
+
+ // TODO: Mark selected week and day
+ // TODO: Fit for 21 weeks
 var weeks = [
         {
             'number': 1,
@@ -32,7 +35,38 @@ var weeks = [
             'shortname': 'Maps',
             'name': 'Drawing maps',
             'days': ['ALineIsADot', 'YouCantCriticize', 'HumanBehaviourFlows', 'NoManIs', 'ThisWorldIs']
+        }, {
+            'number': 7,
+            'shortname': 'History',
+            'name': 'History of Place / History of Space',
+            'days': ['WeAllShineOn', 'NothingIsBuilt', 'NoCowOnTheIce', 'YouGetUp', 'ThereIsNothing']
+        }, {
+            'number': 8,
+            'shortname': 'Proportions',
+            'name': 'Proportions',
+            'days': ['ThePrimaryFactor', 'TheSimplestWay', 'TheEggHas', 'ItIsNotHow', 'ThereIsNoExcellent']
+        }, {
+            'number': 9,
+            'shortname': 'Measurements',
+            'name': 'Taking measurements',
+            'days': ['ThereIsNoNeed', 'AdversityIs', 'OurLifeIs', 'NotAllThose', 'IllPaintYou']
+        }, {
+            'number': 10,
+            'shortname': 'Concepts',
+            'name': 'Conceptual Models',
+            'days': ['TheValueOf', 'BeholdHuman', 'MaybeThe', 'YabbaDabba', 'WhoWouldBelieve']
+        }, {
+            'number': 11,
+            'shortname': 'Papers',
+            'name': 'Papercut Models',
+            'days': ['ThroughSpace', 'BeforeIMake', 'AllTheRivers', 'WhatsThatScreaming', 'IfItHadBeen']
+        }, {
+            'number': 12,
+            'shortname': 'Digital space',
+            'name': 'Building (digital) space',
+            'days': ['MarbleIsNot', 'RetainYour', 'IWouldRather', 'TheeGoIs', 'ToGatherHoney']
         }
+        
 ];
 
 

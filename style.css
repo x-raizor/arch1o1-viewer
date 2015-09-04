@@ -4,8 +4,11 @@ body {
     color: #fff;
 	text-align: center;
     font-size: 100%;
-    font-family: Garamond, EB Garamond, Georgia, serif;
     padding: 0 0 2em 0;
+    /*font-family: 'EB Garamond', Garamond, Georgia, serif;*/
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    line-height: 1.45; /* letters */
 }
 #menu {
     display: block;
@@ -57,11 +60,17 @@ body {
     font-size: 0.9em;
 }
 
-menu label {
+menu label, menu label a {
     color: #FF7A42;
     letter-spacing: 0.1em;
     margin: 0 2em 0 0;
 }
+
+menu label a {
+    text-decoration: none;
+    border-bottom: solid 0.08em inherit;
+}
+
 menu > form > label {  /* instarequest */
     letter-spacing: 0;
     margin: 0 0.5em 0 1em;
@@ -84,6 +93,18 @@ menu li {
     overflow: hidden;
 /*    overflow-y: visible;*/
     text-overflow: ellipsis;
+}
+
+menu.main li {
+    width: auto;
+    /*margin: 0 1em 0 0;*/
+}
+menu.main li::after {
+    content: '·';
+    margin: 0 0.3em 0 0.5em;
+}
+menu.main li:last-child::after {
+    content: none;
 }
 
 #insta {
@@ -178,6 +199,110 @@ figcaption span {
 .talks figure img {
     width: 150px;
     height: 150px;
+}
+
+
+/** 
+ * Letters 
+ */
+
+/* scale: http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=EB%20Garamond&font-family='EB%20Garamond'%2C%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441em;
+}
+h2 {font-size: 1.953em;}
+h3 {font-size: 1.563em;}
+h4 {font-size: 1.25em;}
+
+small, .font_small {font-size: 0.8em;}
+
+h3 {
+    color: rgba(255,255,255,0.9);
+}
+h3 > span {
+    color: rgba(255,255,255, 0.6);
+}
+
+#letters {
+    text-align: left;
+    margin: 6em 4em 1em;
+}
+#letters a {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    border-bottom: solid 0.08em rgba(255,255,255, 0.2);
+}
+
+#letters .week {
+    width: 100%;
+    margin: 0 0 1em 0;
+    clear: both;
+}
+
+#letters div {
+    width: 24em;
+    margin: 0 2em 0 0;
+    float: left;
+}
+
+#letters h3 {
+    margin: 1em 0 0.4em 0;
+}
+
+#letters p {
+    margin: 0 0 0.2em;
+}
+
+#letters p span {
+    font-size: 0.85em;
+    color: rgba(255,255,255,0.3);
+
+}
+
+#letters p span::before {
+    content: '/';
+    margin: 0 0.3em 0 0.1em;
+    color: rgba(255,255,255,0.2);
+}
+
+#letters var {
+    font-style: normal;
+    color: rgba(255,255,255, 0.3);
+}
+#letters small {
+    color: rgba(255,255,255, 0.5);
+    margin-right: 0.2em;
+    margin-left: -1em;
+}
+
+
+section, header, footer {
+    clear: both;
+    overflow: auto;
+    zoom: 1;
+}
+
+footer {
+    border-top: 0.08em solid rgba(255,255,255, 0.2);
+    text-align: left;
+    width: 100%;
+    margin: 2em 4em 0em;
+}
+
+
+
+.capitals {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    margin-right: -0.1em;
+    text-transform: uppercase;
 }
 
 /* angular specials */
